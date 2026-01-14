@@ -3,6 +3,7 @@ import SimpleCalculator from './components/SimpleCalculator'
 import CharacterCounterApp from './components/CharacterCounterApp'
 import BackgroundGradientGenarator from './components/BackgroundGradientGenarator'
 import DigitalClock from './components/DigitalClock'
+import SearchAndFilterInput from './components/SearchAndFilterInput'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <CharacterCounterApp/>
       <SimpleCalculator /> */}
       {/* <BackgroundGradientGenarator/> */}
-      <DigitalClock/>
+      {/* <DigitalClock/> */}
+      <SearchAndFilterInput/>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import BackgroundGradientGenarator from './components/BackgroundGradientGenarato
 import DigitalClock from './components/DigitalClock'
 import SearchAndFilterInput from './components/SearchAndFilterInput'
 import NoteApp from './components/NoteApp'
+import Posts from './apiFetching/components/Posts'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <BackgroundGradientGenarator/> */}
       {/* <DigitalClock/> */}
       {/* <SearchAndFilterInput/> */}
-      <NoteApp/>
+      {/* <NoteApp/> */}
+      <Posts/>
     </div>
   )
 }

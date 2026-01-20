@@ -6,6 +6,7 @@ import DigitalClock from './components/DigitalClock'
 import SearchAndFilterInput from './components/SearchAndFilterInput'
 import NoteApp from './components/NoteApp'
 import Posts from './apiFetching/components/Posts'
+import Weather from './weatherApp/Weather'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <DigitalClock/> */}
       {/* <SearchAndFilterInput/> */}
       {/* <NoteApp/> */}
-      <Posts/>
+      {/* <Posts/> */}
+      <Weather/>
     </div>
   )
 }

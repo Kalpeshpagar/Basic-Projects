@@ -20,13 +20,13 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
+/* body {
   min-height: 100vh;
   background: var(--bg-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .weather-app {
   width: 100%;

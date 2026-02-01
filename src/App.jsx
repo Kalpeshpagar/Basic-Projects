@@ -7,6 +7,7 @@ import SearchAndFilterInput from './components/SearchAndFilterInput'
 import NoteApp from './components/NoteApp'
 import Posts from './apiFetching/components/Posts'
 import Weather from './weatherApp/Weather'
+import Gallery from './galleryProject/Gallery'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <SearchAndFilterInput/> */}
       {/* <NoteApp/> */}
       {/* <Posts/> */}
-      <Weather/>
+      {/* <Weather/> */}
+      <Gallery/>
     </div>
   )
 }
